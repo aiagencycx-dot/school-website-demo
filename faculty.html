@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty - School Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>School Name</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="academics.html">Academics</a>
+                <a href="faculty.html" class="active">Faculty</a>
+                <a href="admissions.html">Admissions</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Faculty Hero -->
+    <section class="hero" style="background: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%); color: white;">
+        <div class="container">
+            <div class="hero-content">
+                <h1 style="color: white;">Our Faculty</h1>
+                <p class="subtitle" style="color: #e9d5ff;">Dedicated Educators, Inspiring Minds</p>
+                <p style="color: #e2e8f0;">Meet our team of passionate educators committed to nurturing young minds and shaping future leaders.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faculty Stats -->
+    <section class="features" style="padding: 3rem 0;">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="counter" data-target="75">0</div>
+                    <p>Qualified Teachers</p>
+                </div>
+                <div class="stat-card">
+                    <div class="counter" data-target="15">0</div>
+                    <p>Average Years of Experience</p>
+                </div>
+                <div class="stat-card">
+                    <div class="counter" data-target="90">0</div>
+                    <p>% with Advanced Degrees</p>
+                </div>
+                <div class="stat-card">
+                    <div class="counter" data-target="10">0</div>
+                    <p>Student-Teacher Ratio</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faculty Departments -->
+    <section class="quick-links" style="background-color: #faf5ff;">
+        <div class="container">
+            <h2 class="section-title">Faculty Departments</h2>
+            <div class="departments-grid">
+                <div class="department-card">
+                    <i class="fas fa-calculator"></i>
+                    <h3>Mathematics</h3>
+                    <p>Expert teachers making complex concepts accessible and engaging for all students.</p>
+                </div>
+                <div class="department-card">
+                    <i class="fas fa-flask"></i>
+                    <h3>Science</h3>
+                    <p>Hands-on learning with experienced science educators and modern laboratory facilities.</p>
+                </div>
+                <div class="department-card">
+                    <i class="fas fa-language"></i>
+                    <h3>Languages</h3>
+                    <p>Language specialists fostering communication skills and cultural understanding.</p>
+                </div>
+                <div class="department-card">
+                    <i class="fas fa-globe-americas"></i>
+                    <h3>Social Studies</h3>
+                    <p>Educators connecting historical events to contemporary issues and global perspectives.</p>
+                </div>
+                <div class="department-card">
+                    <i class="fas fa-palette"></i>
+                    <h3>Arts & Music</h3>
+                    <p>Creative professionals nurturing artistic expression and musical talent.</p>
+                </div>
+                <div class="department-card">
+                    <i class="fas fa-running"></i>
+                    <h3>Physical Education</h3>
+                    <p>Coaches promoting physical fitness, teamwork, and healthy lifestyles.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Faculty -->
+    <section class="features" style="padding: 4rem 0;">
+        <div class="container">
+            <h2 class="section-title">Meet Our Faculty</h2>
+            <div class="faculty-grid">
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Dr. Sarah Johnson">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Dr. Sarah Johnson</h3>
+                        <p class="faculty-title">Principal & Mathematics Department Head</p>
+                        <p class="faculty-qualification">Ph.D. in Mathematics Education, 20+ years experience</p>
+                        <p class="faculty-bio">Passionate about making mathematics accessible and enjoyable for all students. Published researcher in mathematics pedagogy.</p>
+                    </div>
+                </div>
+                
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Mr. David Chen">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Mr. David Chen</h3>
+                        <p class="faculty-title">Science Department Head</p>
+                        <p class="faculty-qualification">M.Sc. in Physics, 15 years teaching experience</p>
+                        <p class="faculty-bio">Innovative science educator with expertise in hands-on laboratory instruction and STEM curriculum development.</p>
+                    </div>
+                </div>
+                
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Ms. Maria Rodriguez">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Ms. Maria Rodriguez</h3>
+                        <p class="faculty-title">Languages Department Head</p>
+                        <p class="faculty-qualification">M.A. in Linguistics, Fluent in 4 languages</p>
+                        <p class="faculty-bio">Dedicated to fostering multilingual communication skills and cultural appreciation among students.</p>
+                    </div>
+                </div>
+                
+                <div class="faculty-card">
+                    <div class="faculty-image">
+                        <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Mr. James Wilson">
+                    </div>
+                    <div class="faculty-info">
+                        <h3>Mr. James Wilson</h3>
+                        <p class="faculty-title">History Teacher & Social Studies Coordinator</p>
+                        <p class="faculty-qualification">M.A. in History, 12 years experience</p>
+                        <p class="faculty-bio">Brings history to life through interactive lessons, primary source analysis, and historical reenactments.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Development -->
+    <section class="quick-links" style="background-color: #f0f9ff;">
+        <div class="container">
+            <h2 class="section-title">Professional Development</h2>
+            <div class="development-grid">
+                <div class="development-card">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h3>Continuous Training</h3>
+                    <p>Regular workshops and training sessions on latest teaching methodologies and educational technology.</p>
+                </div>
+                <div class="development-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Advanced Degrees</h3>
+                    <p>Support for faculty pursuing higher education and specialized certifications.</p>
+                </div>
+                <div class="development-card">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Collaborative Learning</h3>
+                    <p>Peer observation, mentoring programs, and collaborative curriculum development.</p>
+                </div>
+                <div class="development-card">
+                    <i class="fas fa-globe"></i>
+                    <h3>Global Conferences</h3>
+                    <p>Opportunities to attend and present at national and international education conferences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Teaching Philosophy -->
+    <section class="features" style="padding: 4rem 0;">
+        <div class="container">
+            <h2 class="section-title">Our Teaching Philosophy</h2>
+            <div class="philosophy-content">
+                <div class="philosophy-point">
+                    <i class="fas fa-heart"></i>
+                    <div>
+                        <h3>Student-Centered Learning</h3>
+                        <p>We believe in tailoring instruction to meet individual student needs, learning styles, and interests.</p>
+                    </div>
+                </div>
+                <div class="philosophy-point">
+                    <i class="fas fa-lightbulb"></i>
+                    <div>
+                        <h3>Critical Thinking</h3>
+                        <p>Our educators foster analytical skills, problem-solving abilities, and creative thinking.</p>
+                    </div>
+                </div>
+                <div class="philosophy-point">
+                    <i class="fas fa-hands-helping"></i>
+                    <div>
+                        <h3>Collaborative Environment</h3>
+                        <p>We promote teamwork, peer learning, and positive teacher-student relationships.</p>
+                    </div>
+                </div>
+                <div class="philosophy-point">
+                    <i class="fas fa-seedling"></i>
+                    <div>
+                        <h3>Lifelong Learning</h3>
+                        <p>We model and encourage continuous learning and professional growth for both students and faculty.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>School Name</h3>
+                    <p>Providing quality education for over 20 years. Our mission is to develop responsible citizens and future leaders.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="faculty.html">Faculty</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 School Street, City, Country</li>
+                        <li><i class="fas fa-phone"></i> +1 (123) 456-7890</li>
+                        <li><i class="fas fa-envelope"></i> info@schoolname.edu</li>
+                        <li><i class="fas fa-clock"></i> Mon-Fri: 8:00 AM - 4:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span class="current-year">2026</span> School Name. All rights reserved.</p>
+                <p>Designed with ❤️ for better education</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <style>
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        
+        .stat-card {
+            text-align: center;
+            padding: 2rem;
+            background: white;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+        }
+        
+        .stat-card .counter {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-card p {
+            color: var(--secondary-color);
+            font-weight: 500;
+        }
+        
+        .departments-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+        
+        .department-card {
+            text-align: center;
+            padding: 2rem;
+            background: white;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            transition: transform 0.3s;
+        }
+        
+        .department-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .department-card i {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        
+        .faculty-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .faculty-card {
+            background: white;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        
+        .faculty-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .faculty-image {
+            height: 250px;
+            overflow: hidden;
+        }
+        
+        .faculty-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .faculty-info {
+            padding: 1.5rem;
+        }
+        
+        .faculty-title {
+            color: var(--primary-color);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        
+        .faculty-qualification {
+            color: var(--secondary-color);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .faculty-bio {
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        
+        .development-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+        
+        .development-card {
+            text-align: center;
+            padding: 2rem;
+            background: white;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+        }
+        
+        .development-card i {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        
+        .philosophy-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .philosophy-point {
+            display: flex;
+            gap: 1.5rem;
+            align-items: flex-start;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: white;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+        }
+        
+        .philosophy-point i {
+            font-size: 2rem;
+            color: var(--primary-color);
+            margin-top: 0.5rem;
+        }
+        
+        .philosophy-point h3 {
+            margin-bottom: 0.5rem;
+            color: var(--primary-color);
+        }
+        
+        @media (max-width: 768px) {
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .faculty-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .philosophy-point {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .philosophy-point i {
+                margin: 0 auto 1rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</body>
+</html>

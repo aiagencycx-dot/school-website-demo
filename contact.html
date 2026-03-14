@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - School Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>School Name</span>
+            </a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="academics.html">Academics</a>
+                <a href="faculty.html">Faculty</a>
+                <a href="admissions.html">Admissions</a>
+                <a href="contact.html" class="active">Contact</a>
+            </div>
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Contact Hero -->
+    <section class="hero" style="background: linear-gradient(135deg, #dc2626 0%, #ef4444 100%); color: white;">
+        <div class="container">
+            <div class="hero-content">
+                <h1 style="color: white;">Contact Us</h1>
+                <p class="subtitle" style="color: #fecaca;">We're Here to Help</p>
+                <p style="color: #e2e8f0;">Get in touch with our school administration, faculty, or support staff. We're always ready to assist you with any questions or concerns.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="features" style="padding: 4rem 0;">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Visit Our Campus</h3>
+                    <p>123 School Street<br>City, State 12345<br>Country</p>
+                    <a href="#map" class="contact-link">View on Map <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h3>Call Us</h3>
+                    <p>Main Office: +1 (123) 456-7890<br>Admissions: +1 (123) 456-7891<br>Fax: +1 (123) 456-7892</p>
+                    <a href="tel:+11234567890" class="contact-link">Call Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Us</h3>
+                    <p>General: info@schoolname.edu<br>Admissions: admissions@schoolname.edu<br>Support: support@schoolname.edu</p>
+                    <a href="mailto:info@schoolname.edu" class="contact-link">Send Email <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Office Hours</h3>
+                    <p>Monday - Friday: 8:00 AM - 4:00 PM<br>Saturday: 9:00 AM - 12:00 PM<br>Sunday: Closed</p>
+                    <a href="#hours" class="contact-link">View Details <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="quick-links" style="background-color: #fef2f2;">
+        <div class="container">
+            <h2 class="section-title">Send Us a Message</h2>
+            <div class="contact-form-container">
+                <form id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select Subject</option>
+                                <option value="admissions">Admissions Inquiry</option>
+                                <option value="academics">Academic Questions</option>
+                                <option value="faculty">Faculty Contact</option>
+                                <option value="support">Technical Support</option>
+                                <option value="feedback">Feedback & Suggestions</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message *</label>
+                        <textarea id="message" name="message" rows="6" required placeholder="Please provide details about your inquiry..."></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" required>
+                            I agree to receive communications from the school
+                        </label>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <p class="form-note">* Required fields. We typically respond within 24-48 hours during business days.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Department Contacts -->
+    <section class="features" style="padding: 4rem 0;">
+        <div class="container">
+            <h2 class="section-title">Department Contacts</h2>
+            <div class="departments-contact">
+                <div class="department-contact-card">
+                    <h3><i class="fas fa-user-graduate"></i> Admissions Office</h3>
+                    <p>For admission inquiries, application process, campus tours, and enrollment.</p>
+                    <div class="contact-details">
+                        <p><i class="fas fa-phone"></i> +1 (123) 456-7891</p>
+                        <p><i class="fas fa-envelope"></i> admissions@schoolname.edu</p>
+                        <p><i class="fas fa-user"></i> Ms. Jennifer Lee, Admissions Director</p>
+                    </div>
+                </div>
+                
+                <div class="department-contact-card">
+                    <h3><i class="fas fa-chalkboard-teacher"></i> Academic Office</h3>
+                    <p>For curriculum questions, academic programs, schedules, and student progress.</p>
+                    <div class="contact-details">
+                        <p><i class="fas fa-phone"></i> +1 (123) 456-7893</p>
+                        <p><i class="fas fa-envelope"></i> academics@schoolname.edu</p>
+                        <p><i class="fas fa-user"></i> Mr. Robert Kim, Academic Dean</p>
+                    </div>
+                </div>
+                
+                <div class="department-contact-card">
+                    <h3><i class="fas fa-heart"></i> Student Services</h3>
+                    <p>For counseling, health services, extracurricular activities, and student support.</p>
+                    <div class="contact-details">
+                        <p><i class="fas fa-phone"></i> +1 (123) 456-7894</p>
+                        <p><i class="fas fa-envelope"></i> studentservices@schoolname.edu</p>
+                        <p><i class="fas fa-user"></i> Dr. Amanda Chen, Counselor</p>
+                    </div>
+                </div>
+                
+                <div class="department-contact-card">
+                    <h3><i class="fas fa-dollar-sign"></i> Finance Office</h3>
+                    <p>For tuition payments, fee inquiries, financial aid, and scholarship information.</p>
+                    <div class="contact-details">
+                        <p><i class="fas fa-phone"></i> +1 (123) 456-7895</p>
+                        <p><i class="fas fa-envelope"></i> finance@schoolname.edu</p>
+                        <p><i class="fas fa-user"></i> Mr. David Wilson, Finance Manager</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map & Location -->
+    <section class="quick-links" style="background-color: #f0f9ff; padding: 4rem 0;" id="map">
+        <div class="container">
+            <h2 class="section-title">Our Location</h2>
+            <div class="location-container">
+                <div class="map-placeholder">
+                    <div class="map-content">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <h3>School Campus Map</h3>
+                        <p>123 School Street, City, State 12345</p>
+                        <div class="map-directions">
+                            <h4>Getting Here</h4>
+                            <p><strong>By Car:</strong> Take Exit 45 from Highway 101, follow signs to School Street.</p>
+                            <p><strong>Public Transport:</strong> Bus routes 12, 45, and 78 stop at School Street Station.</p>
+                            <p><strong>Parking:</strong> Visitor parking available in front of the main building.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="campus-info">
+                    <h3>Campus Facilities</h3>
+                    <div class="facilities-list">
+                        <div class="facility-item">
+                            <i class="fas fa-building"></i>
+                            <div>
+                                <h4>Main Administration Building</h4>
+                                <p>Office hours: 8:00 AM - 4:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="facility-item">
+                            <i class="fas fa-book"></i>
+                            <div>
+                                <h4>Library & Resource Center</h4>
+                                <p>Open: 7:30 AM - 5:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="facility-item">
+                            <i class="fas fa-utensils"></i>
+                            <div>
+                                <h4>Cafeteria</h4>
+                                <p>Breakfast: 7:00-8:00 AM, Lunch: 11:30 AM-1:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="facility-item">
+                            <i class="fas fa-first-aid"></i>
+                            <div>
+                                <h4>Health Center</h4>
+                                <p>Nurse available: 8:00 AM - 3:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Contacts -->
+    <section class="features" style="padding: 4rem 0; background-color: #fff7ed;">
+        <div class="container">
+            <h2 class="section-title">Emergency Contacts</h2>
+            <div class="emergency-contacts">
+                <div class="emergency-card">
+                    <div class="emergency-icon">
+                        <i class="fas fa-ambulance"></i>
+                    </div>
+                    <h3>Medical Emergency</h3>
+                    <p>On-campus: Dial 911 from any phone<br>School Nurse: +1 (123) 456-7896</p>
+                </div>
+                
+                <div class="emergency-card">
+                    <div class="emergency-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Security</h3>
+                    <p>Campus Security: +1 (123) 456-7897<br>24/7 Emergency Line</p>
+                </div>
+                
+                <div class="emergency-card">
+                    <div class="emergency-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <h3>School Closures</h3>
+                    <p>Weather alerts and emergency closures announced via:<br>• School website<br>• Email alerts<br>• Local news channels</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>School Name</h3>
+                    <p>Providing quality education for over 20 years. Our mission is to develop responsible citizens and future leaders.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="faculty.html">Faculty</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 School Street, City, Country</li>
+                        <li><i class="fas fa-phone"></i> +1 (123) 456-7890</li>
+                        <li><i class="fas fa-envelope"></i> info@schoolname.edu</li>
+                        <li><i class="fas fa-clock"></i> Mon-Fri: 8:00 AM - 4:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span class="current-year">2026</span> School Name. All rights reserved.</p>
+                <p>Designed with ❤️ for better education</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <style>
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+        
+        .contact-card {
+            text-align: center;
+            padding: 2rem;
+            background: white;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            transition: transform 0.3s;
+        }
+        
+        .contact-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .contact-icon {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+        }
+        
+        .contact-card h3 {
+            margin-bottom: 1rem;
+            color: var(--primary-color);
+        }
+        
+        .contact-card p {
+            color: var(--text-color);
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+        
+        .contact-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        .contact-link:hover {
+            color: var(--primary-dark);
+        }
+        
+        .contact-form-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 3rem;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+        }
+        
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            color: var(--text-color);
+        }
+        
+        input, select, textarea {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius);
+            font-family: inherit;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+        
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+        
+        .checkbox-label {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-weight: normal;
+        }
+        
+        .checkbox-label input {
+            width: auto;
+        }
+        
+        .form-note {
+            margin-top: 1.5rem;
+            color: var(--secondary-color);
+            text-align: center;
+            font-size: 0.9rem;
+        }
+        
+        .departments-contact {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .department-contact-card {
+            background: white;
+            padding: 2rem;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+        }
+        
+        .department-contact-card h3 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+        
+        .department-contact-card h3 i {
+            font-size: 1.25rem;
+        }
+        
+        .contact-details {
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border-color);
+        }
+        
+        .contact-details p {
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+        
+        .contact-details i {
+            color: var(--primary-color);
+            width: 1.25rem;
+        }
+        
+        .location-container {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 3rem;
+        }
+        
+        .map-placeholder {
+            background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+            border-radius: var(--radius);
+            padding: 3rem;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .map-content {
+            text-align: center;
+        }
+        
+        .map-content i {
+            font-size: 4rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .map-content h3 {
+            color: white;
+            margin-bottom: 0.5rem;
+        }
+        
+        .map-directions {
+            margin-top: 2rem;
+            text-align: left;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1.5rem;
+            border-radius: var(--radius);
+        }
+        
+        .map-directions h4 {
+            color: white;
+            margin-bottom: 1rem;
+        }
+        
+        .map-directions p {
+            margin-bottom: 0.75rem;
+            font-size: 0.95rem;
+        }
+        
+        .campus-info h3 {
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+        }
+        
+        .facilities-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        
+        .facility-item {
+            display: flex;
+            gap: 1rem;
+            align-items: flex-start;
+            padding: 1.5rem;
+            background: white;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+        }
+        
+        .facility-item i {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            margin-top: 0.25rem;
+        }
+        
+        .facility-item h4 {
+            margin-bottom: 0.25rem;
+            color: var(--text-color);
+        }
+        
+        .facility-item p {
+            color: var(--secondary-color);
+            font-size: 0.9rem;
+        }
+        
+        .emergency-contacts {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .emergency-card {
+            text-align: center;
+            padding: 2rem;
+            background: white;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+        }
+        
+        .emergency-icon {
+            font-size: 3rem;
+            color: #dc2626;
+            margin-bottom: 1.5rem;
+        }
+        
+        .emergency-card h3 {
+            color: #dc2626;
+            margin-bottom: 1rem;
+        }
+        
+        .emergency-card p {
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        
+        @media (max-width: 1024px) {
+            .location-container {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+            
+            .contact-form-container {
+                padding: 2rem;
+            }
+            
+            .departments-contact {
+                grid-template-columns: 1fr;
+            }
+            
+            .emergency-contacts {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .contact-form-container {
+                padding: 1.5rem;
+            }
+            
+            .map-placeholder {
+                padding: 2rem;
+            }
+            
+            .facility-item {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
